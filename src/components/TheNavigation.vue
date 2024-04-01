@@ -17,7 +17,7 @@ export default {
             {{destination.name}}
         </AppLink>
         <AppLink :to="{name: 'protected'}">Dashboard</AppLink>
-        <AppLink to="https:vueschool.io">Vue School</AppLink>
+        <AppLink to="https://vueschool.io">Vue School</AppLink>
     </div>
 </template>
 

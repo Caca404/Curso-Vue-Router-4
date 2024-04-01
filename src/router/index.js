@@ -53,7 +53,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/Curso-Vue-Router-4/'),
     routes: routes,
     linkActiveClass: "vue-school-active-link",
     scrollBehavior(to, from, savedPosition){
